@@ -9,6 +9,8 @@ import Header from './components/header/header.component';
 import SignInAndSignUpPage from './pages/signin-signup/sign-in-and-sign-up.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.util';
 
+// Use Redux to store state
+
 class App extends React.Component {
   constructor() {
     super();
